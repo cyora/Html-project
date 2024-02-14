@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #0096d6;
+}
+
+.navbar-nav #menu {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-nav #menu #item {
+    padding-left: 30px;
+    padding-right: 30px;
+    /* text-shadow: 0.5px 0.5px black ; */
+    font-weight: 600;
+}
+
+.dropdown-submenu {
+    list-style-type: none;
+}
+.dropdown-submenu li a{
+    color: darkgrey;
+}
+#logo {
+    width: 40px;
+}
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .nav-link {}
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
