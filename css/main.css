@@ -73,4 +73,8 @@ body{
   border: 1px solid #0096d6;
   background-color: #0096d6;
 }
+#welcome{
+    font-size: large;
+    color: antiquewhite;
+}
 
